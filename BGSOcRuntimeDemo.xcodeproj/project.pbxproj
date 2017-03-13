@@ -15,6 +15,11 @@
 		208D7AD31E7273EC00D8D8D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208D7AD11E7273EC00D8D8D4 /* LaunchScreen.storyboard */; };
 		208D7ADE1E7273EC00D8D8D4 /* BGSOcRuntimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 208D7ADD1E7273EC00D8D8D4 /* BGSOcRuntimeDemoTests.m */; };
 		208D7AE91E7273EC00D8D8D4 /* BGSOcRuntimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 208D7AE81E7273EC00D8D8D4 /* BGSOcRuntimeDemoUITests.m */; };
+		208D7AF91E72753B00D8D8D4 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 208D7AF81E72753B00D8D8D4 /* TestClass.m */; };
+		208D7AFB1E7275A800D8D8D4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 208D7AFA1E7275A800D8D8D4 /* .gitignore */; };
+		208D7AFE1E727C6E00D8D8D4 /* BGSRuntimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 208D7AFD1E727C6E00D8D8D4 /* BGSRuntimeKit.m */; };
+		20C2791F1E76360700B68233 /* TestClass+AdddynamaticProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C2791E1E76360700B68233 /* TestClass+AdddynamaticProperty.m */; };
+		20C279221E76887700B68233 /* SecondTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C279211E76887700B68233 /* SecondTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		208D7AE41E7273EC00D8D8D4 /* BGSOcRuntimeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BGSOcRuntimeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		208D7AE81E7273EC00D8D8D4 /* BGSOcRuntimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGSOcRuntimeDemoUITests.m; sourceTree = "<group>"; };
 		208D7AEA1E7273EC00D8D8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208D7AF71E72753B00D8D8D4 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		208D7AF81E72753B00D8D8D4 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		208D7AFA1E7275A800D8D8D4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		208D7AFC1E727C6E00D8D8D4 /* BGSRuntimeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BGSRuntimeKit.h; path = RuntimeKit/BGSRuntimeKit.h; sourceTree = "<group>"; };
+		208D7AFD1E727C6E00D8D8D4 /* BGSRuntimeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BGSRuntimeKit.m; path = RuntimeKit/BGSRuntimeKit.m; sourceTree = "<group>"; };
+		20C2791D1E76360700B68233 /* TestClass+AdddynamaticProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestClass+AdddynamaticProperty.h"; sourceTree = "<group>"; };
+		20C2791E1E76360700B68233 /* TestClass+AdddynamaticProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TestClass+AdddynamaticProperty.m"; sourceTree = "<group>"; };
+		20C279201E76887700B68233 /* SecondTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTestClass.h; sourceTree = "<group>"; };
+		20C279211E76887700B68233 /* SecondTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,7 @@
 		208D7AB71E7273EC00D8D8D4 = {
 			isa = PBXGroup;
 			children = (
+				208D7AFA1E7275A800D8D8D4 /* .gitignore */,
 				208D7AC21E7273EC00D8D8D4 /* BGSOcRuntimeDemo */,
 				208D7ADC1E7273EC00D8D8D4 /* BGSOcRuntimeDemoTests */,
 				208D7AE71E7273EC00D8D8D4 /* BGSOcRuntimeDemoUITests */,
@@ -101,6 +116,7 @@
 		208D7AC21E7273EC00D8D8D4 /* BGSOcRuntimeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				208D7AF61E7274F100D8D8D4 /* TestClass */,
 				208D7AC61E7273EC00D8D8D4 /* AppDelegate.h */,
 				208D7AC71E7273EC00D8D8D4 /* AppDelegate.m */,
 				208D7AC91E7273EC00D8D8D4 /* ViewController.h */,
@@ -110,6 +126,8 @@
 				208D7AD11E7273EC00D8D8D4 /* LaunchScreen.storyboard */,
 				208D7AD41E7273EC00D8D8D4 /* Info.plist */,
 				208D7AC31E7273EC00D8D8D4 /* Supporting Files */,
+				208D7AFC1E727C6E00D8D8D4 /* BGSRuntimeKit.h */,
+				208D7AFD1E727C6E00D8D8D4 /* BGSRuntimeKit.m */,
 			);
 			path = BGSOcRuntimeDemo;
 			sourceTree = "<group>";
@@ -138,6 +156,19 @@
 				208D7AEA1E7273EC00D8D8D4 /* Info.plist */,
 			);
 			path = BGSOcRuntimeDemoUITests;
+			sourceTree = "<group>";
+		};
+		208D7AF61E7274F100D8D8D4 /* TestClass */ = {
+			isa = PBXGroup;
+			children = (
+				208D7AF71E72753B00D8D8D4 /* TestClass.h */,
+				208D7AF81E72753B00D8D8D4 /* TestClass.m */,
+				20C2791D1E76360700B68233 /* TestClass+AdddynamaticProperty.h */,
+				20C2791E1E76360700B68233 /* TestClass+AdddynamaticProperty.m */,
+				20C279201E76887700B68233 /* SecondTestClass.h */,
+				20C279211E76887700B68233 /* SecondTestClass.m */,
+			);
+			name = TestClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208D7AFB1E7275A800D8D8D4 /* .gitignore in Resources */,
 				208D7AD31E7273EC00D8D8D4 /* LaunchScreen.storyboard in Resources */,
 				208D7AD01E7273EC00D8D8D4 /* Assets.xcassets in Resources */,
 				208D7ACE1E7273EC00D8D8D4 /* Main.storyboard in Resources */,
@@ -276,8 +308,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C2791F1E76360700B68233 /* TestClass+AdddynamaticProperty.m in Sources */,
+				208D7AF91E72753B00D8D8D4 /* TestClass.m in Sources */,
 				208D7ACB1E7273EC00D8D8D4 /* ViewController.m in Sources */,
+				20C279221E76887700B68233 /* SecondTestClass.m in Sources */,
 				208D7AC81E7273EC00D8D8D4 /* AppDelegate.m in Sources */,
+				208D7AFE1E727C6E00D8D8D4 /* BGSRuntimeKit.m in Sources */,
 				208D7AC51E7273EC00D8D8D4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +550,7 @@
 				208D7AEF1E7273EC00D8D8D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		208D7AF01E7273EC00D8D8D4 /* Build configuration list for PBXNativeTarget "BGSOcRuntimeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +559,7 @@
 				208D7AF21E7273EC00D8D8D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		208D7AF31E7273EC00D8D8D4 /* Build configuration list for PBXNativeTarget "BGSOcRuntimeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +568,7 @@
 				208D7AF51E7273EC00D8D8D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
