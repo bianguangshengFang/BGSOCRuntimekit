@@ -20,21 +20,21 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     //bgsruntime.kit 用法
-    //获取变量列表
+    //获取变量列表数组
     NSArray *varlist=[BGSRuntimeKit fetchIvarList:[TestClass class]];
     NSLog(@"varlist:%@",varlist);
-    //获取属性列表
+    //获取属性列表数组
     NSArray *propertyList=[BGSRuntimeKit fetchPropertyList:[TestClass class]];
     NSLog(@"propertyList:%@",propertyList);
-    //获取属性类型列表
+    //获取属性类型列表数组
     NSArray *propertypeList=[BGSRuntimeKit fetchPropertyTypeList:[TestClass class]];
     NSLog(@"prppertypeList:%@",propertypeList);
-    //获取协议列表
-        NSArray *protocolList=[BGSRuntimeKit fetchProtocolList:[TestClass class]];
+    //获取协议列表数组
+    NSArray *protocolList=[BGSRuntimeKit fetchProtocolList:[TestClass class]];
     NSLog(@"protocolist:%@",protocolList);
     //为testClass 类动态添加logNihao方法
     [BGSRuntimeKit addMethod:[TestClass class] method:@selector(logNihao) ImpMethod:@selector(impNiHao)];
-    //获取方法列表，查看打印方法列表
+    //获取方法列表，查看打印方法列表数组
     NSArray *methodlist=[BGSRuntimeKit fetchMethodList:[TestClass class]];
     NSLog(@"methodlist:%@",methodlist);
     TestClass *test=[[TestClass alloc]init];
