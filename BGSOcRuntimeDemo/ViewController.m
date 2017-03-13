@@ -44,8 +44,9 @@
     [test method2];
     
 //    [test  method3];
-//    test.dynamaticProperty=@"haha";
-//    NSLog(@"test.dynamaticPropery:%@",test.dynamaticProperty);
+    //动态添加属性
+    test.dynamaticProperty=@"haha";
+    NSLog(@"test.dynamaticPropery:%@",test.dynamaticProperty);
     //动态添加方法并拦截崩溃方法。
    [test performSelector:@selector(secondTest) withObject:nil];
     
